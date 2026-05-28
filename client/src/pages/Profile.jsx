@@ -7,7 +7,7 @@ function Profile() {
     email: "basanti@gmail.com",
     progress: "70%",
     joined: "12 May 2026",
-    photo: "/myphoto.jpeg",
+    photo: "/myphotoes.jpeg",
   });
 
   return (
