@@ -12,8 +12,8 @@ function Courses() {
   useEffect(() => {
     setLoading(true);
 
-    axios
-      .get("http://localhost:5000/api/courses")
+    
+    axios.get("https://lmr-backend-aeja.onrender.com/api/courses")
       .then((res) => {
         if (res?.data) {
           if (Array.isArray(res.data)) {
