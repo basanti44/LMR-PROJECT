@@ -83,7 +83,7 @@ function Login() {
             padding: "12px",
             marginTop: "20px",
           }}
-        />navigate
+        />
 
         {/* Button */}
         <button
