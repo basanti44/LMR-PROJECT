@@ -19,7 +19,7 @@ function Login() {
 
       alert("Login Successful ✅");
 
-      navigate("/dashboard");
+      navigate("/dashboard", { replace: true });
 
     } else {
 
@@ -83,7 +83,7 @@ function Login() {
             padding: "12px",
             marginTop: "20px",
           }}
-        />
+        />navigate
 
         {/* Button */}
         <button
